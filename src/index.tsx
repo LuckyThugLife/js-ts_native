@@ -4,12 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {splitIntoWords} from "./01_hello_test/01";
+import {User} from "./06/06_callbacks";
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <User />
   </React.StrictMode>,
   document.getElementById('root')
 );
